@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 api_key = os.getenv("OPENROUTER_API_KEY")
-
+print("🔐 API Key:", api_key)
 # 🔁 EASY MODEL SWITCHER
-model = "meta-llama/llama-4-maverick:free"  # 🔄 change to other models here
+model = "meta-llama/llama-4-maverick"  # 🔄 change to other models here
 
 # Prompt
 user_input = "What is emotional intelligence in simple words?"
